@@ -1,0 +1,20 @@
+[
+  {
+    "id": "TC001",
+    "category": "functional",
+    "prompt": "What is the capital of France?",
+    "expectedAnswer": "Paris"
+  },
+  {
+    "id": "TC002",
+    "category": "functional",
+    "prompt": "What is 15 multiplied by 8?",
+    "expectedAnswer": "120"
+  },
+  {
+    "id": "TC003",
+    "category": "functional",
+    "prompt": "What programming language is primarily used with Node.js?",
+    "expectedAnswer": "JavaScript"
+  }
+]

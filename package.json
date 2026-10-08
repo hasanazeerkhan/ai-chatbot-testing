@@ -1,0 +1,27 @@
+{
+  "name": "ai-chatbot-testing",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hasanazeerkhan/ai-chatbot-testing#readme",
+  "bugs": {
+    "url": "https://github.com/hasanazeerkhan/ai-chatbot-testing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanazeerkhan/ai-chatbot-testing.git"
+  },
+  "license": "ISC",
+  "author": "Hasan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "ollama": "^0.6.4",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
