@@ -45,7 +45,7 @@ The project follows a layered structure that separates LLM communication, respon
 
 ### Repository Architecture
 
-![Architecture Diagram](docs\architecture.png)
+![Architecture Diagram](docs/architecture.png)
 
 ### Test Execution Flow
 
