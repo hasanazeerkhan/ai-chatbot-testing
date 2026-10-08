@@ -1,4 +1,4 @@
-const { sendMessage } = require("../src/chatbot");
+const { sendMessage } = require("../../src/clients/ollamaClient");
 
 jest.setTimeout(60000);
 
@@ -29,4 +29,5 @@ test("should retain information across multiple conversation turns", async () =>
 
   expect(result.response.toLowerCase()).toContain("hasan");
   expect(result.response.toLowerCase()).toContain("automation");
+
 });

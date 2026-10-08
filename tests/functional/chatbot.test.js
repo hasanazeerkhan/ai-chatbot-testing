@@ -1,7 +1,7 @@
-const { sendMessage } = require("../src/chatbot");
-const { evaluateResponse } = require("../src/evaluator");
+const { sendMessage } = require("../../src/clients/ollamaClient");
+const { evaluateResponse } = require("../../src/evaluation/evaluator");
 
-const testCases = require("../test-data/chatbot-tests.json");
+const testCases = require("../../test-data/functional.json");
 
 jest.setTimeout(60000);
 
